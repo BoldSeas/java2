@@ -3,16 +3,16 @@ package com.boldseas.mail;
 /**
  * Created by bykj on 2015/9/5.
  */
-public class Mail {
-    private String title;
+public class MailMessage {
+    private String subject;
     private String content;
 
-    public String getTitle() {
-        return title;
+    public String getSubject() {
+        return subject;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 
     public String getContent() {
